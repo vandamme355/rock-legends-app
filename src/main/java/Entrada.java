@@ -1,10 +1,10 @@
 public class Entrada {
     private String tipo;
-    private int precio; // en pesos chilenos
+    private int precio;
 
     public Entrada() {
         this.tipo = "VIP";
-        this.precio = 120000; // ejemplo: 120.000 CLP
+        this.precio = 120000;
     }
 
     public void mostrarInfo() {
@@ -12,7 +12,6 @@ public class Entrada {
         System.out.println("Precio: $" + precio + " CLP");
     }
 
-    // Getters necesarios para pruebas
     public String getTipo() {
         return tipo;
     }
@@ -21,9 +20,8 @@ public class Entrada {
         return precio;
     }
 
-    // Método main para ejecutar manualmente
     public static void main(String[] args) {
         Entrada entradaVIP = new Entrada();
         entradaVIP.mostrarInfo();
-    }
+    }
 }
