@@ -1,11 +1,16 @@
 public class Entrada {
     private String tipo;
-    private int precio; // en pesos chilenos
+    private int precio;
 
     public Entrada() {
         this.tipo = "VIP";
+        pruebas-junit
+        this.precio = 120000;
+    }
+
         this.precio = 120000; // ejemplo: 120.000 CLP
         }
+        main
 
     public void mostrarInfo() {
         System.out.println("Tipo de entrada: " + tipo);
