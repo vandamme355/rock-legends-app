@@ -5,7 +5,7 @@ public class Entrada {
     public Entrada() {
         this.tipo = "VIP";
         this.precio = 120000; // ejemplo: 120.000 CLP
-    }
+        }
 
     public void mostrarInfo() {
         System.out.println("Tipo de entrada: " + tipo);
