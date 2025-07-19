@@ -12,9 +12,18 @@ public class Entrada {
         System.out.println("Precio: $" + precio + " CLP");
     }
 
-    // Método main para probar la clase directamente
+    // Getters necesarios para pruebas
+    public String getTipo() {
+        return tipo;
+    }
+
+    public int getPrecio() {
+        return precio;
+    }
+
+    // Método main para ejecutar manualmente
     public static void main(String[] args) {
         Entrada entradaVIP = new Entrada();
         entradaVIP.mostrarInfo();
-    }
+    }
 }
